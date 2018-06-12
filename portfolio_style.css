@@ -10,3 +10,12 @@
     flex-direction:row;
     justify-content:center;
 }
+
+#nav{
+    margin-bottom:10px;   
+    width:100%;
+}
+
+.spacer{
+    cursor:default;    
+}
