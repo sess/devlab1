@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vending Machine Project</title>
+      <link rel="stylesheet" href="vm_style.css">
+   </head>
+   <body>
+      <div id="space"> </div>
+      <div id='all'>
+         <div class="layout">
+            <div class="container">
+            <div id="wallet">
+               <h2 id="money">You have $<span id="bal">10</span></h2>
+            </div>
+                <button id="plus1usd">+$1</button>
+            </div>
+            <div class="container" id='head'>
+               
+               <div class="container" id="vm">
+                  <p><img id="coke" class="imgs" src="https://www.magictricks.com/assets/images/trickspix/airbornecokecan2.jpg">Coke: $1.50</p>
+                  <p><img id="chips" class="imgs" src="https://static.meijer.com/Media/000/28400/0002840019914_0200.png">Chips: $1.25</p>
+                  <p><img id="candybar" class="imgs" src="https://static.meijer.com/Media/000/40000/0004000042206_1_A1C1_0600.png">Candy bar: $1.25</p>
+               </div>
+              <div class="container" id="vm2">
+                <p><img id="water" class='imgs' src="https://qph.fs.quoracdn.net/main-qimg-f1018bca940f1dc6efe2e76f0042c9cb-c"><br>Water: $2.00</p>
+                <p><img id="pretzels" class='imgs' src="https://resources.cleanitsupply.com/LARGE/USSCO/183384.JPG"><br>Pretzels: $1.00</p>
+                <p><img id="licorice" class='imgs' src="https://images-na.ssl-images-amazon.com/images/I/616r1L-dTHL._SY355_.jpg"><br>Licorice: $1.50</p>
+              </div>
+              </div>
+            <div class="container" style="display:none" id="alert">
+               <strong>You don't have enough money to buy <span id='item1'> </span>!</strong>
+            </div>
+            <div class="container">
+               <div>Items you've bought so far: <span id="itemtotal">0</span></div>
+               <br>
+               <div>What do you want to buy?</div>
+               <input id="item"><button id="buy">Buy</button>
+               <div id="message"></div>
+            </div>
+         </div>
+      </div>
+      <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script>
+      <script src="vm_script.js"></script>
+   </body>
+</html>

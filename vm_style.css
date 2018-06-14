@@ -1,0 +1,86 @@
+body,
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("https://vectortoons.com/wp-content/uploads/2016/04/inside-a-fast-food-chain-restaurant-background.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+#space {
+	margin: 5px;
+}
+
+#all {
+	display: flex;
+	justify-content: center;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+#wallet {
+	display: flex;
+	justify-content: center;
+}
+
+#plus1usd{
+    float:right;   
+    
+}
+
+button{
+    cursor:pointer;   
+    background-color:lightgrey;
+    border:grey;
+    height:21.6px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+#head {
+	text-align: center;
+}
+
+#vm{
+	display: flex;
+	justify-content: center;
+	border: none;
+}
+
+#vm2{
+    display: flex;
+    justify-content: center;
+	border: none;  
+}
+
+.imgs {
+	width: 100px;
+	cursor:pointer;
+	margin:10px;
+}
+
+#water{
+ height:100px;   
+}
+
+#alert{
+ background-color:red;
+ color:white;
+}
