@@ -1,80 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <div id="all">
-            <div class="row mid homecontent">
-                <h1 id="firstname">Sergio</h1>
-                <img style="display:none" class="headshot" src="https://www.rosielettsnutrition.com/wp-content/uploads/2017/04/Headshot-Placeholder.png">
-                <h1 id="lastname">Sanchez</h1>
+   <head>
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <div id="all">
+         <div class="row mid homecontent">
+            <h1 id="firstname">Sergio</h1>
+            <img style="display:none" class="headshot" src="https://www.rosielettsnutrition.com/wp-content/uploads/2017/04/Headshot-Placeholder.png">
+            <h1 id="lastname">Sanchez</h1>
+         </div>
+         <div id="nav" class="row footer homecontent">
+            <p id="homelink">Home</p>
+            <p class="spacer">|</p>
+            <p id="aboutmelink"> About Me</p>
+            <p class="spacer">|</p>
+            <p id="portfoliolink" >Portfolio</p>
+            <p class="spacer">|</p>
+            <p id="contactlink">Contact</p>
+         </div>
+         <div class="row aboutme">
+            <div id="homepagecontent">
+               <img class="homecontent" id="mainimg" src="https://cdn.parinama.academy/2018/04/29015151/html-css-javascript.png">
             </div>
-            
-            <div id="nav" class="row footer homecontent">
-                <p id="homelink">Home</p><p class="spacer">|</p>
-                <p id="aboutmelink"> About Me</p><p class="spacer">|</p>
-                <p id="portfoliolink" >Portfolio</p><p class="spacer">|</p>
-                <p id="contactlink">Contact</p>
+            <div id="aboutmepage" class="aboutmecontent" style="display:none">
+               <div class="borderspacer"></div>
+               <div id="aboutimgbox">
+                  <img id="pos" src="">
+               </div>
+               <p id="aboutmeblurb">
+                  My name is Sergio Sanchez. I am currently 16 years old and in the 11th grade.
+               </p>
             </div>
-            
-            <div class="row aboutme">
-                <div id="homepagecontent">
-                    <img class="homecontent" id="mainimg" src="https://cdn.parinama.academy/2018/04/29015151/html-css-javascript.png">
-                        
-                </div>
-                    <div id="aboutmepage" class="aboutmecontent" style="display:none">
-                        <div class="borderspacer"></div>
-                    
-                    <div id="aboutimgbox">
-                    <img id="pos" src="">
-                    </div>
-                    
-                    <p id="aboutmeblurb">
-                        My name is Sergio Sanchez. I am currently 16 years old and in the 11th grade.
-                    </p>
-                </div>
-                
-                <div id="portfoliopage" style="display:none">
-                    <div id="projectslist">
-                        <p><strong>Previous Projects:</strong></p>
-                        <p>(Popcode)</p>
-                        <ul>
-                        <li><a target="_blank" href="https://popcode.org/?snapshot=00208e53-52d9-4a0e-b4bc-c7a8288faa0c">Vending Machine</a></li>
-                        <li><a target="_blank" href="https://popcode.org/?snapshot=58e55b84-1763-43e7-a1ac-811812277d75">"Complex" & Conditional Inputs</a></li>
-                       <!--<li><a target="_blank" href="https://popcode.org/?snapshot=1cb67eea-44cb-4d57-88f3-f84c57670f50">Basketball Score Counter</a></li>-->
-                        </ul>
-                    </div>
-                </div>
-                
-                  <div class="contactcontent" id="contactpage" style="display:none"> 
-                        <p>
-                            <strong>Contact me at:</strong>       
-                        </p>
-                        <p>Email: Unavailable</p>
-                        <p><a href="https://github.com/sess" target="_blank">Github</a></p>
-                    </div>
+            <div id="portfoliopage" style="display:none">
+               <div id="projectslist">
+                  <p><strong>Previous Projects:</strong></p>
+                  <p>(Popcode)</p>
+                  <ul>
+                     <li><a target="_blank" href="https://popcode.org/?snapshot=00208e53-52d9-4a0e-b4bc-c7a8288faa0c">Vending Machine</a></li>
+                     <li><a target="_blank" href="https://popcode.org/?snapshot=58e55b84-1763-43e7-a1ac-811812277d75">"Complex" & Conditional Inputs</a></li>
+                     <!--<li><a target="_blank" href="https://popcode.org/?snapshot=1cb67eea-44cb-4d57-88f3-f84c57670f50">Basketball Score Counter</a></li>-->
+                  </ul>
+               </div>
             </div>
-            
+            <div class="contactcontent" id="contactpage" style="display:none">
+               <p>
+                  <strong>Contact me at:</strong>       
+               </p>
+               <p>Email: Unavailable</p>
+               <p><a href="https://github.com/sess" target="_blank">Github</a></p>
             </div>
-            
-                   <div class="row contact" style="display:none">
-                    <p id="github"><a href="https://github.com/sess" target="_blank">Github</a></p>
-                    <p>Twitter</p>
-                    <p>LinkedIn</p>    
-                    </div>
-                    
-             <div target="_blank" class="row footer" id="copyright">
-                <span>Copyright © Sanchez LLC 2018</span>
-            </div>
-            
-            
-        </div>
- 
-        <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-    </body>
+         </div>
+      </div>
+      <div class="row contact" style="display:none">
+         <p id="github"><a href="https://github.com/sess" target="_blank">Github</a></p>
+         <p>Twitter</p>
+         <p>LinkedIn</p>
+      </div>
+      <div target="_blank" class="row footer" id="copyright">
+         <span>Copyright © Sanchez LLC 2018</span>
+      </div>
+      </div>
+      <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+   </body>
 </html>

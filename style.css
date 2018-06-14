@@ -1,149 +1,143 @@
-html{
-    font-family: 'Nunito', sans-serif;
-    color:black;
+html {
+	font-family: 'Nunito', sans-serif;
+	color: black;
 }
 
-#all{
+#all {}
 
+.row {
+	background-color: white;
+	width: 100%;
+	color: black;
+	font-size: 20px;
 }
 
-.row{   
-    background-color:white;
-    width:100%;
-    color:black;
-    font-size:20px;
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-.footer{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+h1 {
+	margin-right: auto;
+	margin-left: auto;
 }
-
-h1{
-    margin-right: auto;
-    margin-left: auto;
-}
-
 
 #homelink,
 #aboutmelink,
 #portfoliolink,
-#contactlink{
-    margin-right:10px;
-    margin-left:10px;
-    cursor:pointer;
+#contactlink {
+	margin-right: 10px;
+	margin-left: 10px;
+	cursor: pointer;
 }
 
-#portfoliolink{
-    color:black;
-    text-decoration: none;
-    outline:none;
+#portfoliolink {
+	color: black;
+	text-decoration: none;
+	outline: none;
 }
 
-
-
-#nav{
-    margin-bottom:10px;   
-    width:100%;
+#nav {
+	margin-bottom: 10px;
+	width: 100%;
 }
 
-.spacer{
-    cursor:default;    
+.spacer {
+	cursor: default;
 }
 
-.headshot{
-    width:20px;
-}
-.mid{
-    background-color:white;
-    color:black;
-    align-items:center;
-    font-size:50px;
-    margin-top:5px;
-    margin-bottom:5px;
+.headshot {
+	width: 20px;
 }
 
-.mid{
-    display:flex;
-    flex-direction:row;    
-    justify-content:center;
+.mid {
+	background-color: white;
+	color: black;
+	align-items: center;
+	font-size: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-#hompagecontent{
-    display:flex;
-    justify-content:center;
+.mid {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-#mainimg{
-    margin-top:10px;  
-        display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+#hompagecontent {
+	display: flex;
+	justify-content: center;
+}
+
+#mainimg {
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 #firstname,
-#lastname{
-    margin:20px; 
-    margin-top:5px;
-    margin-bottom:5px;
+#lastname {
+	margin: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-#pos{
-    width:300px;
-    height:400px;
-    float:right;
+#pos {
+	width: 300px;
+	height: 400px;
+	float: right;
 }
 
-
-.contact{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    height:20px;
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 20px;
 }
 
-.contactcontent{
-    text-align:center;    
+.contactcontent {
+	text-align: center;
 }
 
-.borderspacer{
-    display:flex;
-    border:black 2px solid;    
-    justify-content:center;
+.borderspacer {
+	display: flex;
+	border: black 2px solid;
+	justify-content: center;
 }
 
-#aboutmeblurb{
-    margin-left:40px;
+#aboutmeblurb {
+	margin-left: 40px;
 }
 
-#portfoliopage{
-    text-align:center;
+#portfoliopage {
+	text-align: center;
 }
 
-.contact > p{
-    cursor:pointer;
-    margin-right:10px;   
-    color:black;
+.contact>p {
+	cursor: pointer;
+	margin-right: 10px;
+	color: black;
 }
 
-#github{
-    margin-left:15px;    
+#github {
+	margin-left: 15px;
 }
 
-#copyright{
-    display:flex;
-    justify-content:center;
-    margin-top:30px;
-    background-color:white;
-    color:black;
-    position:fixed;
-    bottom:0;
-    left:0;
+#copyright {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	background-color: white;
+	color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
-a{
-    color:black;
+a {
+	color: black;
 }
