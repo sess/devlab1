@@ -24,6 +24,19 @@ $(document).ready(function () {
 		$('#aboutmepage').hide();
 		$('#portfoliopage').show();
 		$('.contact').hide();
+<<<<<<< HEAD
+
+	});
+
+	$('#contactlink').click(function () {
+		$('#mainimg').hide();
+		$('#aboutmepage').hide();
+		$('.contactcontent').show();
+		$('.contact').hide();
+		$('#portfoliopage').hide();
+	});
+=======
+>>>>>>> refs/remotes/origin/master
 
 	});
 
