@@ -31,8 +31,8 @@ h1 {
 #aboutmelink,
 #portfoliolink,
 #contactlink {
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right:10px ;
+	margin-left:10px ;
 	cursor: pointer;
 }
 
@@ -118,7 +118,17 @@ h1 {
 }
 
 #portfoliopage {
-	text-align: center;
+	margin-left:40px;
+}
+
+#projectvm{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+#projectinp{
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .contact>p {

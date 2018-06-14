@@ -25,7 +25,6 @@ $(document).ready(function () {
 		$('#portfoliopage').show();
 		$('.contact').hide();
 
-
 	});
 
 	$('#contactlink').click(function () {
@@ -35,13 +34,4 @@ $(document).ready(function () {
 		$('.contact').hide();
 		$('#portfoliopage').hide();
 	});
-
-	$('#contactlink').click(function () {
-		$('#mainimg').hide();
-		$('#aboutmepage').hide();
-		$('.contactcontent').show();
-		$('.contact').hide();
-		$('#portfoliopage').hide();
-	});
-
 });
