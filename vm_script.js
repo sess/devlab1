@@ -10,6 +10,8 @@ var licorice = 1.50;
 var item;
 var itemtotal = 0;
 
+$(document).ready(function () {
+
 function purchase() {
 
 	if (item === 'Coke') {
@@ -294,5 +296,7 @@ $('#plus1usd').click(function () {
 	money = money + 1;
 
 	$('#bal').html(money);
+
+});
 
 });

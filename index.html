@@ -7,11 +7,12 @@
       <meta charset="UTF-8">
    </head>
    <body>
+   <div id="shade2top" class="shade"></div><div id="shade2" class="shade"></div><div id="shade1top" class="shade"></div><div id="shade1" class="shade"></div>
       <div id="all">
          <div class="row mid homecontent">
-            <h1 id="firstname">Sergio</h1>
+            <p id="firstname">Sergio</p>
             <img style="display:none" class="headshot" src="https://www.rosielettsnutrition.com/wp-content/uploads/2017/04/Headshot-Placeholder.png">
-            <h1 id="lastname">Sanchez</h1>
+            <p id="lastname">Sanchez</p>
          </div>
          <div id="nav" class="row footer homecontent">
             <p id="homelink">Home</p>
@@ -27,17 +28,22 @@
                <img class="homecontent" id="mainimg" src="https://cdn.parinama.academy/2018/04/29015151/html-css-javascript.png">
             </div>
             <div id="aboutmepage" class="aboutmecontent" style="display:none">
-               <div class="borderspacer"></div>
-               <div id="aboutimgbox">
-                  <img id="pos" src="">
+               <hr class="borderspacer">
+               <div id="imgblurbbox">
+                  <div id="aboutimgbox">
+                     <img id="pos" src="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/academic-support/emil-sein/_jcr_content/bio-info/image.img.jpg">
+                  </div>
+                  <p id="aboutmeblurb">
+                     My name is Sergio Sanchez, and I am 16 years old and in the 11th grade. I am currently enrolled in a program called <a target="_blank" href="https://scripted.org/">ScriptEd</a>
+                     which aims to "[equip] students in under-resourced schools with the fundamental coding skills and professional experiences that together create access to careers in technology."
+                     There are three parts of their curriculum, the "Foudations Course", the "Advanced Course", and the "Studio Course", I've already finished the foundations course, so I'm moving 
+                      into the advanced course.
+                  </p>
                </div>
-               <p id="aboutmeblurb">
-                  My name is Sergio Sanchez. I am currently 16 years old and in the 11th grade.
-               </p>
             </div>
             <div id="portfoliopage" style="display:none">
                <div id="projectslist">
-                  <p><strong>Previous Projects:</strong></p>
+                  <p><strong>Previous Project(s):</strong></p>
                   <ul>
                      <li><span id="projectvm" target="_blank" onclick="location.href='vending_machine.html'">Vending Machine</span> - A virtual vending machine</li>
                      <!--<li><span id="projectinp" target="_blank" onlclick="location.href='cc_inputs.html'">"Complex" & Conditional Inputs</span> - A madlib maker</li>-->
@@ -59,7 +65,7 @@
          <p>Twitter</p>
          <p>LinkedIn</p>
       </div>
-      <div target="_blank" class="row footer" id="copyright">
+      <div style="display:none" target="_blank" class="row footer" id="copyright">
          <span>Copyright © Sanchez LLC 2018</span>
       </div>
       </div>
