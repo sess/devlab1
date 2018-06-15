@@ -1,5 +1,6 @@
 html {
-	font-family: 'Nunito', sans-serif;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 	color: black;
 }
 
@@ -89,9 +90,8 @@ h1 {
 
 #firstname,
 #lastname {
-	margin: 20px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top:0px;
+	margin-bottom:0px;
 }
 
 #homelink,
@@ -110,10 +110,9 @@ h1 {
 }
 
 #nav {
-	margin-bottom: 10px;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+	display:flex;
+	justify-content:center;
+	text-align:center;
 	font-size:1.5vw;
 }
 
@@ -172,6 +171,7 @@ h1 {
 
 .contactcontent {
 	text-align: center;
+	font-size:1.3vw;
 }
 
 .borderspacer {
@@ -190,8 +190,8 @@ h1 {
 }
 
 #portfoliopage {
-	margin-left:40px;
-	text-align:center;
+	text-align: center;
+	font-size:1.3vw;
 }
 
 #projectvm{
