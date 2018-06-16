@@ -94,6 +94,10 @@ h1 {
 	margin-bottom:0px;
 }
 
+#homelink{
+	text-decoration: underline;
+}
+
 #homelink,
 #aboutmelink,
 #portfoliolink,

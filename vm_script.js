@@ -1,5 +1,7 @@
 /* global $ */
 
+$(document).ready(function () {
+
 var money = 10.00;
 var cokes = 1.50;
 var chips = 1.25;
@@ -9,8 +11,6 @@ var pretzels = 1.00;
 var licorice = 1.50;
 var item;
 var itemtotal = 0;
-
-$(document).ready(function () {
 
 function purchase() {
 
