@@ -1,18 +1,15 @@
 body,
 html {
 	height: 100%;
+	font-family: 'Tajawal', sans-serif;
 }
 
 body {
-	background-image: url("https://vectortoons.com/wp-content/uploads/2016/04/inside-a-fast-food-chain-restaurant-background.jpg");
+	background-image: url("http://freedesignfile.com/upload/2015/11/Red-brick-wall-backgrounds-vectors-02.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: repeat;
 	background-size: cover;
-}
-
-#space {
-	margin: 10px;
 }
 
 #all {
@@ -29,11 +26,11 @@ body {
 #wallet {
 	display: flex;
 	justify-content: center;
+	margin-top:10px;
 }
 
 #plus1usd{
     float:right;   
-    
 }
 
 button{
@@ -48,10 +45,21 @@ button:focus {
 }
 
 .container {
-	border: 1px solid black;
+	border: 5px solid black;
 	padding: 10px;
 	margin-bottom: 5px;
 	background-color: white;
+	background-color: darkgrey;
+	margin:0px;
+}
+
+img{
+	height:100px;
+	width:100px;
+}
+
+#water{
+	width:50px;
 }
 
 #head {
@@ -62,12 +70,16 @@ button:focus {
 	display: flex;
 	justify-content: center;
 	border: none;
+	background-color:darkgrey;
+	padding:0px;
 }
 
 #vm2{
     display: flex;
     justify-content: center;
-	border: none;  
+	border: none;
+	background-color:darkgrey;
+	padding:0px;
 }
 
 .imgs {
@@ -76,11 +88,21 @@ button:focus {
 	margin:10px;
 }
 
-#water{
- height:100px;   
+#pretzels{
+	margin-right:20px;
+	margin-left: 20px
 }
 
 #alert{
  background-color:red;
  color:white;
+}
+
+#item{
+	background-color: lightgrey;
+	border:lightgrey 1px solid;
+}
+
+#buy{
+	margin-left:22px;
 }
