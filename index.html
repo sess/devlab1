@@ -1,76 +1,52 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Sergio S.</title>
-      <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-      <meta charset="UTF-8">
-   </head>
-   <body>
-   <div id="shade2top" class="shade"></div><div id="shade2" class="shade"></div><div id="shade1top" class="shade"></div><div id="shade1" class="shade"></div>
-      <div id="all">
-         <div class="row mid homecontent">
-            <p id="firstname">Sergio Sanchez</p>
-            <img style="display:none" class="headshot" src="https://www.rosielettsnutrition.com/wp-content/uploads/2017/04/Headshot-Placeholder.png">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet"> 
+        <meta name="description" content="Hey, my name is Sergio Sanchez, and this is a website about me.">
+        <title>Sergio</title>
+    </head>
+    <body>
+        <div id="nav">
+            <p><strong>Sergio Sanchez</strong></p>
+            <p class="options" id="option1">About Me</p> 
+            <p class="options" id="option2">My Work</p>
+            <p class="options" id="option3"></p>
+            <a href="https://github.com/sess" target="_blank"><img class="contactimgs" id="github" src="/sess/devlab1/images/github_icon.png"></a> 
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=serj.sanch@gmail.com&=BODY&tf=1"><img class="contactimgs" id="email" src="/sess/devlab1/images/email_icon.png"></a>
+        </div>
+        
+        <div class="pages" id="aboutmepage">
+                <img id="pos" src="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/academic-support/emil-sein/_jcr_content/bio-info/image.img.jpg">
             
-         </div>
-         <div id="nav" class="row footer homecontent">
-            <p id="homelink">Home</p>
-            <p class="spacer">|</p>
-            <p id="aboutmelink"> About Me</p>
-            <p class="spacer">|</p>
-            <p id="portfoliolink" >My Work</p>
-            <p class="spacer">|</p>
-            <p id="contactlink">Contact Me</p>
-         </div>
-         <div class="row aboutme">
-            <div id="homepagecontent">
-               <img class="homecontent" id="mainimg" src="https://cdn.parinama.academy/2018/04/29015151/html-css-javascript.png">
+            <p id="abtmeblurb">
+                My name is Sergio Sanchez, and I am 16 years old and in the 11th grade. I am currently enrolled in a program called <a target="_blank" href="https://scripted.org/">ScriptEd</a> which aims to "[equip] students in under-resourced schools with the fundamental coding skills and professional experiences that together create access to careers in technology." There are three parts of their curriculum, the "Foundations Course", the "Advanced Course", and the "Studio Course", I've already finished the foundations course, so I'm moving into the advanced course.
+                     <br>
+                     <br>
+                     <br>
+                My interests are web developing and astronomy, with a slight interest of gaming on the side, to name a few. 
+                And since I'm one of Jehovah's Witnesses, I go door to door preaching regularly.
+                <br>
+                <br>
+                <br>
+                The programming languages I know are HTML, CSS, and Javascript.
+            </p>
+        </div>
+        
+        <div class="pages" id="myworkpage" style="display:none">
+            <h1>Projects</h1><br>
+            <select value="Select a Project">
+                <option value="vm">Vending Machine</option>
+                <option value="hh">hats & hoods</option>
+            </select>
+            <div id="sampleimgbox">
+                <a id="tryout" target="_blank" href=""><img id="sampleimg" src=""></a>
             </div>
-            <div id="aboutmepage" class="aboutmecontent" style="display:none">
-               <hr class="borderspacer">
-               <div id="imgblurbbox">
-                  <div id="aboutimgbox">
-                     <img id="pos" src="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/academic-support/emil-sein/_jcr_content/bio-info/image.img.jpg">
-                  </div>
-                  <p id="aboutmeblurb">
-                     My name is Sergio Sanchez, and I am 16 years old and in the 11th grade. I am currently enrolled in a program called <a target="_blank" href="https://scripted.org/">ScriptEd</a>
-                     which aims to "[equip] students in under-resourced schools with the fundamental coding skills and professional experiences that together create access to careers in technology."
-                     There are three parts of their curriculum, the "Foundations Course", the "Advanced Course", and the "Studio Course", I've already finished the foundations course, so I'm moving 
-                      into the advanced course.
-                  </p>
-               </div>
-            </div>
-            <div id="portfoliopage" style="display:none">
-               <div id="projectslist">
-                  <p style="display:show"><strong>Previous Project(s):</strong></p>
-                     <ul>
-                     <li><span id="projectvm" target="_blank" onclick="location.href='vending_machine.html'">Vending Machine</span> - A virtual vending machine</li>
-                     <!--<li><span id="projectinp" target="_blank" onlclick="location.href='cc_inputs.html'">"Complex" & Conditional Inputs</span> - A madlib maker</li>-->
-                     <!--<li><a target="_blank" href="https://popcode.org/?snapshot=1cb67eea-44cb-4d57-88f3-f84c57670f50">Basketball Score Counter</a></li>-->
-                     </ul>
-               </div>
-            </div>
-            <div class="contactcontent" id="contactpage" style="display:none">
-               <p>
-                  <strong>Contact me at:</strong>       
-               </p>
-               <p>Email: Unavailable</p>
-               <p><a href="https://github.com/sess" target="_blank">Github</a></p>
-            </div>
-         </div>
-      </div>
-      <div class="row contact" style="display:none">
-         <p id="github"><a href="https://github.com/sess" target="_blank">Github</a></p>
-         <p>Twitter</p>
-         <p>LinkedIn</p>
-      </div>
-      <div style="display:none" target="_blank" class="row footer" id="copyright">
-         <span>Copyright © Sanchez LLC 2018</span>
-      </div>
-      </div>
-      <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script>
-      <script src="script.js"></script>
-   </body>
+            <p id="description"></p>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+    </body>
 </html>
