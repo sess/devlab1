@@ -1,0 +1,104 @@
+html{
+    background-color:white;
+    font-family: 'Dosis', sans-serif;    
+}
+
+html,
+body{
+    margin:0;
+    padding:0;  
+}
+
+a::-moz-focus-inner {
+  border: 0;
+}
+
+a{
+  outline:none;    
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+#blackbar{
+    height:10px;
+    width:100%;
+    display:flex;
+    border:black 1px solid;
+    background-color:black;
+    position:fixed;
+    color:darkgrey;
+    font-size:12px;
+}
+
+#heading{   
+    display:flex;
+    justify-content:center;
+}
+
+#logo{
+    margin-top:15px;
+    height:81px;
+    width:83px;
+}
+
+#nav{
+    color:white;
+    display:flex;
+    justify-content:center;
+    border:black solid 1px;
+    background-color:black;
+
+}
+
+.navselect{
+    margin-left:auto;
+    margin-right:auto;
+    cursor:pointer;
+}
+
+#salesselect{
+    text-decoration: underline;
+}
+
+#socialnav{
+    border:black 2px solid;
+    background-color:black;   
+    display:flex;
+    margin-top:20px;
+    padding:0px;
+    height:2%;
+    justify-content:center;
+    color:white;
+}
+
+.socialimgs{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    padding:0px;
+    border:#404040 2px solid;   
+    background-color:#404040;
+}
+
+#instagram:hover{
+    border:#ff33cc 2px solid; 
+    background-color:#ff33cc;
+}
+
+#twitter:hover{
+    border:#33ccff 2px solid;   
+    background-color:#33ccff;
+}
+
+#youtube:hover{
+    border:red 2px solid;
+    background-color:red;
+}
+
+#contacttext{
+    position:absolute;
+    right:10px;
+}

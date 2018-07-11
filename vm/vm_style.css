@@ -1,0 +1,145 @@
+body,
+html {
+	height: 100%;
+	font-family: 'Tajawal', sans-serif;
+	margin: 0; 
+	height: 100%; 
+	overflow: hidden
+}
+
+body {
+	background-image: url("https://www.freevector.com/uploads/vector/preview/8395/FreeVector-Brick-Wall-Pattern.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+#all {
+	display:flex;
+	justify-content: center;
+	position:fixed;
+	left:38%;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+#wallet {
+	display: flex;
+	justify-content: center;
+	margin-top:10px;
+}
+
+#walletcontainer{
+	position:fixed;
+	bottom:5%;
+	left:1%;
+	border:#1a1a1a 1px solid;
+	background-color: #1a1a1a;
+	color:white;
+	width:250px;
+	padding:10px;
+}
+
+.money{
+
+}
+
+#plus1usd{
+    float:right;   
+}
+
+#count{
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+	position: fixed;
+	top:1%;
+	left:1%;
+}
+
+button{
+    cursor:pointer;   
+    background-color:lightgrey;
+    border:grey;
+    height:21.6px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+	border: 5px solid black;
+	padding: 10px;	
+	background-color: white;
+	background-color: darkgrey;
+	margin:0px;
+}
+
+.container > div{
+	margin-top:0px;
+}
+
+img{
+	height:100px;
+	width:100px;
+}
+
+#water{
+	width:50px;
+}
+
+#head {
+	text-align: center;
+}
+
+#vmbox{
+	margin-top:20%;
+}
+
+#vm{
+	display: flex;
+	justify-content: center;
+	border: none;
+	background-color:darkgrey;
+	padding:0px;
+}
+
+#vm2{
+    display: flex;
+    justify-content: center;
+	border: none;
+	background-color:darkgrey;
+	padding:0px;
+}
+
+.imgs {
+	width: 100px;
+	cursor:pointer;
+	margin:10px;
+}
+
+#pretzels{
+	margin-right:20px;
+	margin-left: 20px
+}
+
+#alert{
+	 background-color:red;
+	 color:white;
+	 margin-top:10%;
+}
+
+#item{
+	background-color: lightgrey;
+	border:lightgrey 1px solid;
+}
+
+#buy{
+	margin-left:22px;
+}
