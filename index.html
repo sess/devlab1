@@ -10,14 +10,20 @@
     <body>
         <div id="nav">
             <p><strong>Sergio Sanchez</strong></p>
+            <p class="options" id="option0">Home</p>
             <p class="options" id="option1">About Me</p> 
             <p class="options" id="option2">My Work</p>
-            <p class="options" id="option3"></p>
-            <a href="https://github.com/sess" target="_blank"><img class="contactimgs" id="github" src="/devlab1/images/github_icon.png"></a> 
-            <a target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=serj.sanch@gmail.com&=BODY&tf=1"><img class="contactimgs" id="email" src="/devlab1/images/email_icon.png"></a>
+            <p class="options" id="option3">Contact</p>
+            <div id="contactbox">
+                 <a href="https://github.com/sess" target="_blank"><img id="github" src="/sess/devlab1/images/github_icon.png"></a>
+            </div>
         </div>
         
-        <div class="pages" id="aboutmepage">
+        <div class="pages" id="homepage">
+            
+        </div>
+        
+        <div class="pages" id="aboutmepage" style="display:none">
                 <img id="pos" src="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/academic-support/emil-sein/_jcr_content/bio-info/image.img.jpg">
             
             <p id="abtmeblurb">
@@ -35,15 +41,24 @@
         </div>
         
         <div class="pages" id="myworkpage" style="display:none">
-            <h1>Projects</h1><br>
-            <select>
-                <option value="vm">Vending Machine</option>
-                <option value="hh">hats & hoods</option>
-            </select>
-            <div id="sampleimgbox">
-                <a id="tryout" target="_blank" href="/devlab1/vm/vending_machine.html"><img id="sampleimg" src="/devlab1/images/vending_machine_screenshot.PNG"></a>
+            <div id="myworkcontent">
+                <h1>Projects</h1><br>
+                <select>
+                    <option value="vm">Vending Machine</option>
+                    <option value="hh">hats & hoods</option>
+                </select>
+                <div id="sampleimgbox">
+                    <a id="tryout" target="_blank" href="/devlab1/vm/vending_machine.html"><img id="sampleimg" src="/devlab1/images/vending_machine_screenshot.PNG"></a>
+                </div>
+                <p id="description">A very basic virtual vending machine. This was a project for the ScriptEd class I'm in, I worked on it both in class and at my house. I did edit it quite a bit it afterwards to make it look more appealing.</p>
             </div>
-            <p id="description">A very basic virtual vending machine. This was a project for the ScriptEd class I'm in, I worked on it both in class and at my house. I did edit it quite a bit it afterwards to make it look more appealing.</p>
+        </div>
+        
+        <div class="pages" id="contactpage" style="display:none">
+            <div id="contactcontent">
+                <h1 id="contacttitle">Ways to Contact Me</h1>
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=serj.sanch@gmail.com&=BODY&tf=1">By Email at serj.sanch@gmail.com</a>
+                </div>
         </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="   crossorigin="anonymous"></script> 
