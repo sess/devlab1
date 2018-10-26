@@ -2,6 +2,15 @@ html{
     color:white;
     background-color:#24478f;
     font-family: 'Raleway', sans-serif;
+    overflow:hidden;
+}
+
+html, 
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
 }
 
 #header{
@@ -36,6 +45,41 @@ h2{
     right:10px;
 }
 
+.bar1,
+.bar2,
+.bar3{
+    width:30px;
+    height:4px;
+    background-color:white;
+    margin:6px 0;
+    transition:0.4s;
+    opacity:1;
+}
+
+.change .bar1{
+   -webkit-transform:rotate(-45deg) translate(-8px, 5px);
+   transform:rotate(-45deg) translate(-8px, 5px);
+}
+
+.change .bar2{
+    opacity:0;
+}
+
+.change .bar3{
+    -webkit-transform:rotate(45deg) translate(-8px, -8px);
+   transform:rotate(45deg) translate(-8px, -8px);    
+}
+
+/*
+#nav{
+    right:0;
+    top:0;
+    margin:0;
+    width:100%;
+    top:70px;
+}
+*/
+
 .nav{   
     text-align:center;
 }
@@ -54,53 +98,16 @@ h2{
     cursor:pointer;    
 }
 
-/*#homeImg{
+#workImg{
     border-bottom:2px solid white;
-}*/
+}
 
 .content{
+    /*background-color:grey;
+    opacity:0.3;*/
     height:100%;
     width:100%;
     text-align:center;
-}
-
-.homeContent{
-    margin:200px;
-}
-
-
-#imgbox{
-    display:flex;
-    justify-content:center;
-}
-
-#selfphoto{
-    width:14vw;
-	height:16vw;
-    margin-top:60px;
-}
-
-#blurb{
-    text-align:center;
-    margin-right:100px;
-    margin-left:100px;
-    margin-bottom:100px;
-    margin-top:40px;
-    flex-wrap:wrap;
-}
-
-a{
-    color:white;
-}
-
-.selectProject{
-    text-align:center;
-    border:white solid 2px;
-    cursor:pointer;
-}
-
-option{
-    cursor:pointer;
 }
 
 #footer{

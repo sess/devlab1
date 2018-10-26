@@ -2,32 +2,38 @@
 
 $(document).ready(function () {
     
+ 
+    
     $('#option0').click(function(){
-        $('.options').css('background-color','#262626');
-        $('#option0').css('background-color','black');
+        $('.options').css("font-weight","300");
+        $('#option0').css("font-weight","600");
         $('.pages').hide();
         $('#homepage').show();
+        $("#footer").hide();
    });
     
     $('#option1').click(function(){
-        $('.options').css('background-color','#262626');
-        $('#option1').css('background-color','black');
+        $('.options').css("font-weight","300");
+        $('#option1').css("font-weight","600");
         $('.pages').hide();
         $('#aboutmepage').show();
+        $("#footer").show();
    });
    
    $('#option2').click(function(){
-        $('.options').css('background-color','#262626');
-        $('#option2').css('background-color','black');
+        $('.options').css("font-weight","300");
+        $('#option2').css("font-weight","600");
         $('.pages').hide();
         $('#myworkpage').show();
+        $("#footer").show();
    });
    
    $('#option3').click(function(){
-        $('.options').css('background-color','#262626');
-        $('#option3').css('background-color','black');
+        $('.options').css("font-weight","300");
+        $('#option3').css("font-weight","600");
         $('.pages').hide();
         $('#contactpage').show();
+        $("#footer").show();
    });
    
    $('select').click(function(){
@@ -41,5 +47,17 @@ $(document).ready(function () {
             $('#description').text('(Incomplete) A website for a fictitious company. I am making this purely for practice.');
             $('#tryout').attr('href','/devlab1/h&h/h&h.html');
        }
+   });
+   
+   $("#aboutLink").click(function(){
+       $("#aboutLink").css("border-bottom","2px");
+   });
+   
+   $("#homeLink").click(function(){
+      $("#homeLink").css("border-bottom","2px"); 
+   });
+   
+   $("#workLink").click(function(){
+       $("#workLink").css("border-bottom","2px");
    });
 });
