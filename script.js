@@ -44,7 +44,7 @@ $(document).ready(function () {
             $('#tryout').attr('href',"https://sess.github.io/crackthesafe/");
        }else if(option === "cfp"){
             $('#sampleImg').attr('src','cerealfanpageSample.png');
-            $('.sampleBlurb').text('A simple fanpage about cereal. I also created as part of the ScriptEd Advanced Course.');
+            $('.sampleBlurb').text('A simple fanpage about cereal. I created it as part of the ScriptEd Advanced Course.');
             $('#tryout').attr('href','https://sess.github.io/fanpage/');
        }
    });
