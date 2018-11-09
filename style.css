@@ -65,7 +65,17 @@ h2{
 }
 
 .homeContent{
-    margin:200px;
+   margin-top:200px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.homeContent > h1{
+    width:100%;
+}
+
+.homeContent > h3{
+    width:100%;
 }
 
 
@@ -101,6 +111,21 @@ a{
 
 option{
     cursor:pointer;
+}
+
+.samples{
+    margin:100px;
+}
+
+#sampleImg{
+    width:500px;
+    height:300px;
+}
+
+.sampleBlurb{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
 #footer{

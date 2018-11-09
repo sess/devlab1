@@ -38,14 +38,14 @@ $(document).ready(function () {
    
    $('select').click(function(){
        var option = $('select').val();
-       if(option === 'vm'){
-            $('#sampleimg').attr('src','/devlab1/images/vending_machine_screenshot.PNG');
-            $('#description').text('A very basic virtual vending machine.' + ' This was a project for the ScriptEd class I\'m in, I worked on it both in class and at my house. I did edit it quite a bit it afterwards to make it look more appealing.');
-            $('#tryout').attr('href','/devlab1/vm/vending_machine.html');
-       }else if(option === "hh"){
-            $('#sampleimg').attr('src','/devlab1/images/hats_hoods_screenshot.PNG');
-            $('#description').text('(Incomplete) A website for a fictitious company. I am making this purely for practice.');
-            $('#tryout').attr('href','/devlab1/h&h/h&h.html');
+       if(option === 'cts'){
+            $('#sampleImg').attr('src','crackthesafeSample.png');
+            $('.sampleBlurb').text('A pretty simple game that I created as part of a project for the ScriptEd Advanced Course. The goal of the game is to try and guess the passcode in order to unlock the safe.');
+            $('#tryout').attr('href',"https://sess.github.io/crackthesafe/");
+       }else if(option === "cfp"){
+            $('#sampleImg').attr('src','cerealfanpageSample.png');
+            $('.sampleBlurb').text('A simple fanpage about cereal. I also created as part of the ScriptEd Advanced Course.');
+            $('#tryout').attr('href','https://sess.github.io/fanpage/');
        }
    });
    
