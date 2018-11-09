@@ -114,7 +114,7 @@ option{
 }
 
 .samples{
-    margin:100px;
+    margin:10px;
 }
 
 #sampleImg{
@@ -126,6 +126,7 @@ option{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
+    margin:20px;
 }
 
 #footer{
