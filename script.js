@@ -40,12 +40,16 @@ $(document).ready(function () {
        var option = $('select').val();
        if(option === 'cts'){
             $('#sampleImg').attr('src','crackthesafeSample.png');
-            $('.sampleBlurb').text('A pretty simple game that I created as part of a project for the ScriptEd Advanced Course. The goal of the game is to try and guess the passcode in order to unlock the safe.');
+            $('.sampleBlurb').text('A pretty simple game that I created as part of a project for the Code Nation Advanced Course. The goal of the game is to try and guess the passcode in order to unlock the safe.');
             $('#tryout').attr('href',"https://sess.github.io/crackthesafe/");
        }else if(option === "cfp"){
             $('#sampleImg').attr('src','cerealfanpageSample.png');
-            $('.sampleBlurb').text('A simple fanpage about cereal. I created it as part of the ScriptEd Advanced Course.');
+            $('.sampleBlurb').text('A simple fanpage about cereal. I created it as part of the Code Nation Advanced Course.');
             $('#tryout').attr('href','https://sess.github.io/fanpage/');
+       }else if(option === "ttt"){
+           $("#sampleImg").attr("src","tictactoeSample.png");
+           $(".sampleBlurb").text("Recreated tic tac toe as part of the Code Nation Advanced Course.");
+           $("#tryout").attr("href","https://sess.github.io/tictactoe/");
        }
    });
    
