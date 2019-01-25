@@ -105,12 +105,14 @@ a{
 
 .selectProject{
     text-align:center;
-    border:white solid 2px;
+    outline:none;
     cursor:pointer;
 }
 
 option{
     cursor:pointer;
+    outline:none;
+    box-shadow:none;
 }
 
 .samples{

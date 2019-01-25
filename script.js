@@ -2,8 +2,6 @@
 
 $(document).ready(function () {
     
- 
-    
     $('#option0').click(function(){
         $('.options').css("font-weight","300");
         $('#option0').css("font-weight","600");
