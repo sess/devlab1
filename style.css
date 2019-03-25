@@ -64,17 +64,25 @@ h2{
     text-align:center;
 }
 
-.homeContent{
-   margin-top:200px;
-    display:flex;
-    flex-wrap:wrap;
+.workContent{
+    height:100%;
+    width:100%;
+    text-align:center;
 }
 
-.homeContent > h1{
+.homeContent{
+    margin-top:200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     width:100%;
 }
 
-.homeContent > h3{
+#title{
+    width:100%;
+}
+
+#subtitle{
     width:100%;
 }
 

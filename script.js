@@ -1,38 +1,6 @@
 /* global $ */
 
 $(document).ready(function () {
-    
-    $('#option0').click(function(){
-        $('.options').css("font-weight","300");
-        $('#option0').css("font-weight","600");
-        $('.pages').hide();
-        $('#homepage').show();
-        $("#footer").hide();
-   });
-    
-    $('#option1').click(function(){
-        $('.options').css("font-weight","300");
-        $('#option1').css("font-weight","600");
-        $('.pages').hide();
-        $('#aboutmepage').show();
-        $("#footer").show();
-   });
-   
-   $('#option2').click(function(){
-        $('.options').css("font-weight","300");
-        $('#option2').css("font-weight","600");
-        $('.pages').hide();
-        $('#myworkpage').show();
-        $("#footer").show();
-   });
-   
-   $('#option3').click(function(){
-        $('.options').css("font-weight","300");
-        $('#option3').css("font-weight","600");
-        $('.pages').hide();
-        $('#contactpage').show();
-        $("#footer").show();
-   });
    
    $('select').click(function(){
        var option = $('select').val();
@@ -52,18 +20,14 @@ $(document).ready(function () {
            $("#sampleImg").attr("src","playlistSample.PNG");
            $(".sampleBlurb").text("As part of the Code Nation Advanced Course, I made a sort of playlist in order to demonstrate \".forEach();\", \".push\", and so on");
            $("#tryout").attr("href","https://sess.github.io/playlist/");
+       }else if(option === "cyoa"){
+           $("#sampleImg").attr("src","chooseyoaSample.png");
+           $(".sampleBlurb").text("As part of the Code Nation Advanced Course, put together a sort of \"Choose Your Own Adventure\" from a template.");
+           $("#tryout").attr("href","https://sess.github.io/ChooseYourOwnAdventure/");
+       }else if(option === "gif"){
+           $("#sampleImg").attr("src","giphySample.png");
+           $(".sampleBlurb").text("As part of the Code Nation Advanced Course, I, along with a partner made a make-shift Giphy search engine which can be searched using Google's speech recongition API. Chrome is needed for it to work.");
+           $("#tryout").attr("href","https://baekrxnn.github.io/giphy/");
        }
-   });
-   
-   $("#aboutLink").click(function(){
-       $("#aboutLink").css("border-bottom","2px");
-   });
-   
-   $("#homeLink").click(function(){
-      $("#homeLink").css("border-bottom","2px"); 
-   });
-   
-   $("#workLink").click(function(){
-       $("#workLink").css("border-bottom","2px");
    });
 });
