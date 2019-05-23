@@ -28,6 +28,10 @@ $(document).ready(function () {
            $("#sampleImg").attr("src","giphySample.png");
            $(".sampleBlurb").text("As part of the Code Nation Advanced Course, I, along with a partner made a make-shift Giphy search engine which can be searched using Google's speech recongition API. Chrome is needed for it to work.");
            $("#tryout").attr("href","https://baekrxnn.github.io/giphy/");
+       }else if(option === "nasa"){
+           $("#sampleImg").attr("src","nasasearchSample.png");
+           $(".sampleBlurb").text("As part of the Code Nation Advanced Course, created a project using one of NASA's API.");
+           $("#tryout").attr("href","https://sess.github.io/apiclientprojectV2/");
        }
    });
 });
